@@ -14,8 +14,9 @@ body{
 
 
 #table{
-  border: 3px solid red;
+  border: 40px outset #548CFF;
   width: 30%;
+  border-radius: 30px;
 }
 
 td{
@@ -34,7 +35,9 @@ td{
   height: 100%;
   width: 100%;
   box-sizing:border-box;
-  font: 15px Arial, sans-serif;
+  font: 30px Arial, sans-serif;
+  background-color: #1572A1;
+  color: #ffffff;
 }
 
 .display{
@@ -43,9 +46,5 @@ td{
   box-sizing:border-box;
   text-align: right;
   font-weight: bolder;
-  font: 40px Arial, sans-serif;
-}
-
-div{
-  border: 3px outset green;
+  font: 50px Arial, sans-serif;
 }
