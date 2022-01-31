@@ -1,0 +1,51 @@
+body{ 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;  
+  
+}
+
+#display{
+  height: 50px;
+  text-align: right;
+  font-weight: 400;
+  background-color: #D6E5FA;
+}
+
+
+#table{
+  border: 3px solid red;
+  width: 30%;
+}
+
+td{
+  height:50px;
+  text-align:center;
+  font-weight:800;
+  background-color: #9AD0EC;
+}
+
+#zero{
+  position: relative;
+  bottom: -15px;
+}
+
+.myButton{
+  height: 100%;
+  width: 100%;
+  box-sizing:border-box;
+  font: 15px Arial, sans-serif;
+}
+
+.display{
+  height: 50px;
+  width: 100%;
+  box-sizing:border-box;
+  text-align: right;
+  font-weight: bolder;
+  font: 40px Arial, sans-serif;
+}
+
+div{
+  border: 3px outset green;
+}
